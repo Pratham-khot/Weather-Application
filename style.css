@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#h{
+    text-align: center;
+}
+#in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main-div{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://img.freepik.com/premium-vector/sky-background-with-sun-clouds_1639-2561.jpg?semt=ais_hybrid");
+    padding-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+button{
+    border-radius: 5px;
+    border: none;
+    background-color: cornflowerblue;
+    width: 10vw;
+}
